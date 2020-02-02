@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>MS Portfolio</title>
+
+    <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+
+</head>
+
+<body>
+    <h1>Matias Schakel Project Examples</h1>
+    <div>
+        <h2>Triple Flash Card</h2>
+        <h3><a href="https://ms4224.github.io/flashcard">https://ms4224.github.io/flashcard</a></h3>
+        <p>
+            I am currently studying Japanese, and have had problems with traditional flashcard applications because they are only 2-sided.  In Japanese,
+            ideally when you memorize vocabulary, you would want to have a 3-sided flashcard.  One for the kanji, one for the pronunciation (hiragana), and one 
+            for the english translation.  This app tackles this problem.  I am considering expanding the application to include the option to use different decks of cards (for 
+            example N1, N2, N3, etc), be able to specify how many cards you want to study, etc.  Incase you look at the source code on github, there is some code that I use to parse a 
+            JSON string (the flashcard list) into a useable object.  This list I found for free online and parsed it into a useable JSON array.
+        </p>
+        <p>Written in the latest version of Angular and hosted on Github Pages</p>
+    </div>
+    <div>
+        <h2>Roy O Gannon Twitch Stream Utility Website</h2>
+        <h3><a href="http://roy-o-gannon.herokuapp.com/#/currentlypwning">http://roy-o-gannon.herokuapp.com</a></h3>
+        <p>
+            This was a fun side project I built to practice Angular 2+ and NgRx when I was first learning it.  My brother and I are hardcore smashbros players, and about a year
+            ago we were streaming our online matches.  The purpose of this application was firstly to be able to record wins/losses versus different opponents online.  Then, using the data,
+            you can view a table showing all of the opponents we have fought, win/loss ratio/ number of matches, etc.  During the twitch stream, we use the "Current Opponent" screen
+            as a twitch prop that shows the current win/loss ratio of the opponent we are currently fighting.  All of the data and the current opponent screen are controlled via inputs on an admin screen.
+            I can't say that we had too many viewers, but it was alot of fun!
+        </p>
+        <p>
+            Feel free to look at the website.  Unfortunately, there is not much to see interactively (unless you are watching our stream, in which case the current opponent view will change).  If I have some time,
+            I will add a tab where you can search an opponent and view their stats (and you can watch the roy and ganon faces smile or frown, depending on the win/loss ratio).
+        </p>
+        <p>
+            Written in latest version of Angular at the time, also uses NgRx (not necessarily the best design choice, but good practice).  Hosted on Heroku.
+        </p>
+        <p>
+            **Disclaimer: On small screens (mobile), the dropdown menu has a glitch that will not let you use it. Sorry about that!  Please view on a laptop or desktop screen.
+        </p>
+        <p>
+            **Disclaimer: the website may take a while to load if it has not had any traffic in the last 10 hours.  (This has to do with Heroku)
+        </p>
+    </div>
+    <div>
+        <h2>True Barbarian Games Website</h2>
+        <h3><a href="http://www.truebarbariangames.com">www.truebarbariangames.com</a></h3>
+        <p>I was a cofounder of a (very) small start up dedicated primarily to making mobile games for Android and Apple.
+            Although I did not code the games themselves, I did draw the graphics by hand.  During this time I took a course on AngularJS, Javascript, etc., and
+            used that knowledge to build the company website.  It was my first project as a front-end engineer.
+        </p>
+        <p>
+            The website is built with AngularJS, HTML, CSS, Javascript.  It actually has a backend application as well, written in node.js.  Both pieces are hosted on Heroku.
+            The backend is for an admin user to add game information, which the frontend will display after fetching relevant info via http.
+        </p>
+        <p>**Please note that some of the games have been removed from the Android store, and soon all of the games may be removed from the Apple Store due to license
+            renewal issues.  However, you can of course still enjoy viewing the game descriptions and images on the website.
+        </p>
+        <p>
+            **Another disclaimer: the website may take a while to load if it has not had any traffic in the last 10 hours.  (This has to do with Heroku)
+        </p>
+    </div>
+    <div>
+        <h2>Rima Palabra</h2>
+        <h3><a href="http://www.rimapalabra.com/#!/rimador/english">www.rimapalabra.com</a></h3>
+        <p>
+            This is a project I worked on during my time at True Barbarian Games.  It is a spanish rhyme dictionary that uses a trie data structure to find 
+            a closest matching rhyme.  Unlike other spanish rhyme dictionaries, if you search for a word, it will find the word in a list ordered by backwards alphabetical order.
+            This means that you can find not just direct rhymes, but also words that "closely" match the word you want to rhyme with, but may not be an exact rhyme.  
+            The closer a word in the list is to your search result, the more 'closely' it rhymes.  This might be a hard concept to wrap your head around, but give it a try
+            and see if you can see what I mean.
+        </p>
+        <p>
+            The website is built with AngularJS, and hosted on Heroku.
+        </p>
+        <p>
+            **Disclaimer: the website may take a while to load if it has not had any traffic in the last 10 hours.  (This has to do with Heroku)
+        </p>
+    </div>
+</body>
+
+</html>
